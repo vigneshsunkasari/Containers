@@ -1,0 +1,8 @@
+version :  "3"
+services:
+        python-container:
+                build:
+                      context: .
+                      dockerfile: Dockerfile.txt
+                ports:
+                      - 5000:5000
