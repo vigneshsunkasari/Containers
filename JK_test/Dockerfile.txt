@@ -1,0 +1,4 @@
+FROM python:latest
+WORKDIR /app
+COPY addition.py .
+CMD ["python3","addition.py"]
